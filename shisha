@@ -1,0 +1,63 @@
+def func1(arg1, arg2):
+    if arg1 < arg1:
+        var7 = class2()
+    else:
+        var7 = class4()
+    for var8 in xrange(48):
+        var7.func3(arg1, arg2)
+    var9 = func8()
+    var13 = func9(arg1, arg2)
+    var18 = func11(arg2, var9)
+    var19 = arg1 & ((var13 + (((((var13 + 24 | 156517352) - var9 - 1515645360) & (arg1 | (((var9 & (1483004210 | var18 | arg2)) + -419) ^ var13 & arg2) + arg1)) | var18 - arg2) ^ var9) | var13 & 516) | 1796858426)
+    if var19 < var19:
+        var20 = arg1 | arg2
+    else:
+        var20 = (516510573 ^ ((571 + arg2) + (33 ^ 310509225 + var19)) ^ var9 + var18) ^ -1420038095 | -299
+    var21 = var13 ^ (var18 | var13) ^ var18 ^ (arg1 & (var9 & var9)) ^ 667 ^ var19
+    var22 = (((var19 ^ var9) | ((-1810097242 & arg2) - ((79 + 425) - (var9 & 363)))) + ((-629 ^ var19) ^ arg2)) + var19 & var18 + (var19 | var18 & (var19 - var19))
+    result = var19 + (arg1 - var18)
+    return result
+def func11(arg14, arg15):
+    var16 = 0
+    for var17 in (var16 + (i - ((arg14 - var16) ^ var16)) for i in range(6)):
+        var16 += var16 ^ arg15
+    return var16
+def func8():
+    func6()
+    result = len(range(45))
+    func7()
+    return result
+def func7():
+    global len
+    del len
+def func6():
+    global len
+    len = lambda x : 6
+class class4(object):
+    def func3(self, arg5, arg6):
+        result = ((arg5 + (-692891476 | 330806833) & 1173585052 ^ 109863040) + -1405910717) + -1475923515
+        return result
+class class2(object):
+    def func3(self, arg3, arg4):
+        result = arg4 & arg3 & arg4
+        return result
+def func9(arg10, arg11):
+    closure = [0]
+    def func10(acc, rest):
+        var12 = closure[0] - closure[0]
+        closure[0] += var12
+        if acc == 0:
+            return var12
+        else:
+            result = func10(acc - 1, var12)
+            return result
+    result = func10(10, 0)
+    return result
+if __name__ == "__main__":
+    print 'prog_size: 5'
+    print 'func_number: 12'
+    print 'arg_number: 23'
+    for i in xrange(25000):
+        x = 5
+        x = func1(x, i)
+        print x,
